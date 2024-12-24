@@ -1,0 +1,223 @@
+/* home Page */
+body {
+    background-color: #fdfdfd;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+}
+
+header {
+    background-color: #0084ff;
+    width: 78%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    
+}
+
+ .logo{
+  text-decoration: none;
+color: #ffffff;
+text-transform: none;
+font-weight: 700;
+font-size: 1.8em;
+
+ }
+.information a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 30px;
+
+}
+
+
+.button1 {
+  background-color: #546435;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 25px;
+   margin: 6px 4px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+
+.button1:hover {
+ background-color: #546435;
+}
+
+
+/* books Page */
+#follow {
+    background-color: #2800db;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.5; /* Set the initial opacity to 50% */
+    transition: opacity 0.3s ease; /* Add a transition effect */
+  }
+  #follow:hover {
+    opacity: 1; /* Change the opacity to 100% on hover */
+  }
+  
+  #follow:disabled {
+    cursor: not-allowed; /* Change the cursor to "not-allowed" when disabled */
+  }
+
+table {
+    width: 50%;
+    background-color: #fff;
+    border-collapse: collapse;
+   
+}
+
+th,
+td {
+    padding: 15px;
+    border: 2px solid #ddd0d0;
+    text-align: right;
+  
+}
+
+th {
+    background-color: #5c95ff;
+    color: #fff;
+    
+}
+
+
+#myinfo {
+    display: block; /* Change the display property to "block" to show the form */
+    width: 50%; /* Set the width of the form to 50% */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding to the form */
+    border: 1px solid #ccc; /* Add a border to the form */
+    border-radius: 5px; /* Add rounded corners to the form */
+    background-color: #f9f9f9; /* Set the background color of the form */
+  }
+  
+  #myinfo label {
+    display: block; /* Make the labels block-level elements */
+    margin-top: 20px; /* Add some margin to the top of the labels */
+    font-weight: bold; /* Make the labels bold */
+  }
+  
+  #myinfo input[type="text"] {
+    width: 100%; /* Set the width of the text inputs to 100% */
+    padding: 10px; /* Add some padding to the text inputs */
+    margin-top: 5px; /* Add some margin to the top of the text inputs */
+    border: 1px solid #ccc; /* Add a border to the text inputs */
+    border-radius: 5px; /* Add rounded corners to the text inputs */
+  }
+  
+  #myinfo button[name="submit"] {
+    background-color: #4CAF50; /* Set the background color of the submit button to green */
+    color: white; /* Set the text color of the submit button to white */
+    padding: 10px 20px; /* Add some padding to the submit button */
+    border: none; /* Remove the border from the submit button */
+    border-radius: 5px; /* Add rounded corners to the submit button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the submit button */
+    margin-top: 20px; /* Add some margin to the top of the submit button */
+  }
+  
+  #myinfo button[name="submit"]:hover {
+    background-color: #45a049; /* Change the background color of the submit button to a darker green when hovering over it */
+  }
+  
+  #myinfo input[type="button"] {
+    background-color: #546435; /* Set the background color of the refresh button to blue */
+    color: white; /* Set the text color of the refresh button to white */
+    padding: 10px 20px; /* Add some padding to the refresh button */
+    border: none; /* Remove the border from the refresh button */
+    border-radius: 5px; /* Add rounded corners to the refresh button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the refresh button */
+    margin-top: 20px; /* Add some margin to the top of the refresh button */
+  }
+  
+  #myinfo input[type="button"]:hover {
+    background-color: #546435; /* Change the background color of the refresh button to a darker blue when hovering over it */
+  }
+  
+  #myinfo input[type="text"]:focus {
+    outline: none; /* Remove the outline from the text inputs when they are focused */
+    box-shadow: 0 0 5px #546435; /* Add a green box shadow to the text inputs when they are focused */
+  }
+  
+  #myinfo input[type="button"]:focus {
+    outline: none; /* Remove the outline from the refresh button when it is focused */
+    box-shadow: 0 0 5px #546435; /* Add a blue box shadow to the refresh button when it is focused */
+  }
+  
+  #myinfo button[name="submit"]:focus {
+    outline: none; /* Remove the outline from the submit button when it is focused */
+    box-shadow: 0 0 5px #546435; /* Add a green box shadow to the submit button when it is focused */
+  }
+
+  /* aboutus Page */
+.aboutus {
+  margin: 50px auto 50px auto;
+  width: 70%;
+  background: #9DB2BF; 
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.aboutus-title {
+  margin: 0 0 30px 0;
+  border-bottom: 2px solid #333;
+  padding: 5px 0;
+  font-size: 30px;
+}
+
+.aboutus-body {
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+.aboutus .aboutus-body p {
+  line-height: 40px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin: 40px 20px 0 0;
+  font-size: 20px;
+}
+
+.contact-info .aboutus-body h3 {
+  border-bottom: 2px solid #333; 
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.contact-info-body {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+}
